@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"> <img src="images/logo.jpeg" width="100" alt="logo-icon"></a>
+
+        <nav class="navbar2">
+            <ul>
+                <li><a href="index.html">
+                        <h1> <big> <b> Cambridge </b> </big> <small> little ones</small> </h1>
+                    </a></li>
+            </ul>
+        </nav>
+
+        <div id="login" class="fas fa-user-circle"> </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+
+    <!-- login form  -->
+
+    <div class="login-form">
+
+        <form action="">
+            <br>            
+            <br>            
+            <br> <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3><b>login</b></h3>
+            <input type="email" placeholder="username" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+            <input type="submit" class="btn" value="login">
+            <i class="fas fa-times"></i>
+        </form>
+
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home3" id="home">
+
+        <h1> <big></big> </h1>
+        <h1> <small>Time To Do Homework</small> </h1>
+        <p> lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum neque aliquid similique error velit placeat
+            vitae accusantium est nam magnam?</p>
+        <a href="#teacher"><button class="btn"> <b>Login As A Teacher</b> </button></a>
+        <a href="#student"><button class="btn"> <b>Login As A Students</b> </button></a>
+
+        <div class="shape"></div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- Students -->
+    <section class="student" id="student">
+    
+        <h1 class="heading">  Homework Sumbission Portal </h1>
+            
+           
+            <div class="main">
+            
+                <form method="POST">
+                    <div id="name">
+                        <h2 class="name">
+                            Name </h2>
+                        <input class="firstname" type="text" name="first_name"><br>
+                        <label class="firstlabel">first name</label>
+                        <input class="lastname" type="text" name="last_name"><br>
+                        <label class="lastlabel">last name</label>
+                    </div>
+                    <h2 class="name">
+                        Class </h2>
+                    <select class="option" name="class">
+                        <option disabled="disabled" selected="selected">--Choose option--</option>
+                        <option>Pre KG</option>
+                        <option>Nursery</option>
+                        <option>LKG</option>
+                        <option>UKG</option>
+                    </select>
+                    <h2 class="name">
+                        Subject</h2>
+                    <select class="option" name="subject">
+                        <option disabled="disabled" selected="selected">--Choose option--</option>
+                        <option>Nursery Rhymes</option>
+                        <option>Star And Night Sky</option>
+                        <option>Phonic Alphabets</option>
+                        <option>Fun With Numbers</option>
+                        <option>It's Play Time</option>
+                        <option>Let's Draw</option>
+                    </select>
+
+                            <div class="wrapper">
+                                
+                                <input class="file-input" type="file" name="file" hidden>
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <p>Browse File to Upload</p>
+                            
+                            </div>
+            
+                    <h2 id="coustomer">
+                        Want To Submit?</h2>
+                    <label class="radio">
+                        <input class="radio-one" type="radio" checked="checked" name="rdiobtn">
+                        <span class="checkmark"></span>
+                        Yes
+                    </label>
+            
+                    <label class="radio">
+                        <input class="radio-two" type="radio" name="rdiobtn">
+                        <span class="checkmark"></span>
+                        No
+                    </label>
+            
+                    <input class="btn" type="submit">
+            
+            
+                </form>
+</div>
+</section>
+
+<section class="teacherr" id="teacher">
+
+    <h1 class="heading"> Teacher Homework Upload</h1>
+
+<div class="main">
+
+    <form method="POST">
+        <h2 class="name">
+            Class </h2>
+        <select class="option"  name="class">
+        <option disabled="disabled" selected="selected">--Choose option--</option>
+        <option>Pre KG</option>
+        <option>Nursery</option>
+        <option>LKG</option>
+        <option>UKG</option>
+        </select>
+
+
+        <h2 class="name">
+            Subject </h2>
+        <select class="option" name="class">
+            <option disabled="disabled" selected="selected">--Choose option--</option>
+            <option>Nursery Rhymes</option>
+            <option>Star And Night Sky</option>
+            <option>Phonic Alphabets</option>
+            <option>Fun With Numbers</option>
+            <option>It's Play Time</option>
+            <option>Let's Draw</option>
+        </select>
+
+            <div class="wrapper">
+            
+                <input class="file-input" type="file" name="file" hidden>
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Browse File to Upload</p>
+            
+            </div>
+
+        <h2 id="coustomer">
+            Want To Submit?</h2>
+        <label class="radio">
+            <input class="radio-one" type="radio" checked="checked" name="rdiobtn">
+            <span class="checkmark"></span>
+            Yes
+        </label>
+
+        <label class="radio">
+            <input class="radio-two" type="radio" name="rdiobtn">
+            <span class="checkmark"></span>
+            No
+        </label>
+
+        <input class="btn" type="submit">
+
+
+    </form>
+</div>
+</section>
+
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">france</a>
+            <a href="#">russia</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">activity</a>
+            <a href="#">teachers</a>
+            <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <a href="map"><i class="fas fa-map-marker-alt"></i> mumbai, india 400104. </p>
+            <p> <a href="mailto:Example@Gmail.com"><i class="fas fa-envelope"></i> example@gmail.com </p>
+            <p> <a href="tel:8665562570"> <i class="fas fa-phone"></i>866-556-2570</a></p>
+        </div>
+
+    </div>
+
+    <h1 class="credit">created by <a href="#">Team 2|Rajeshri & Aryan|</a> &copy all rights reserved. </h1>
+
+</div>
+
+<!-- footer section ends -->
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

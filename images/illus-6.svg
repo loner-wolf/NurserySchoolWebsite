@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 109.2 109.2" style="enable-background:new 0 0 109.2 109.2;" xml:space="preserve">
+<g>
+	<g>
+		<circle style="fill:#7A69A2;" cx="54.6" cy="54.6" r="54.6"/>
+		<path style="fill:#735999;" d="M54.6,2.3v104.6c28.4-0.6,52.3-23.7,52.3-52.3S83,2.9,54.6,2.3z"/>
+	</g>
+	<g>
+		<rect x="18.2" y="54.6" style="fill:#F5833C;" width="28.7" height="28.7"/>
+		<polygon style="fill:#D56230;" points="53.1,71.4 46.9,83.2 46.9,54.5 53.1,47.8 		"/>
+		<polygon style="fill:#F37032;" points="46.9,54.6 18.2,54.6 31.7,47.9 52.8,47.9 		"/>
+		<text transform="matrix(1 0 0 1 21.8977 79.3559)" style="fill:#FFD400; font-family:'Bariol-Bold'; font-size:33.245;">A</text>
+		<rect x="62.8" y="54.6" style="fill:#CAD12C;" width="28.7" height="28.7"/>
+		<polygon style="fill:#85A640;" points="62.8,83.2 53.1,71.4 53.1,47.8 62.8,54.5 		"/>
+		<polygon style="fill:#A7C539;" points="91.5,54.6 62.9,54.6 52.8,47.9 72.2,47.9 		"/>
+		<text transform="matrix(1 0 0 1 67.4158 79.3559)" style="fill:#7A69A2; font-family:'Bariol-Bold'; font-size:33.245;">B</text>
+		<rect x="40.3" y="24.4" style="fill:#F599B8;" width="28.7" height="28.7"/>
+		<polygon style="fill:#ED2A80;" points="69.5,47.8 69,52.8 69,24.2 69.5,20.8 		"/>
+		<polygon style="fill:#BF2070;" points="68.8,24.4 40.1,24.4 45.2,20.8 69.6,20.8 		"/>
+		<text transform="matrix(1 0 0 1 43.3933 49.4731)" style="fill:#85A640; font-family:'Bariol-Bold'; font-size:33.245;">C</text>
+	</g>
+</g>
+</svg>
