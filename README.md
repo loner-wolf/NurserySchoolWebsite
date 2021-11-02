@@ -2,8 +2,6 @@
 This is my first front-end project. I completed this project in 24hrs for an Intellectium(College Technical Fest) for event Design-A-thon. And I secured 1st postion.
 This is a nursery school website for conducting online classes and it is colourful and captivating to the eyes. 
 
-My Website :- https://loner-wolf.github.io/NurserySchoolWebsite/
-
 ##### THIS WAS MY PROBLEM STATEMENT #####
 
 As everything is shifted to online mode because of
